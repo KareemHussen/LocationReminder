@@ -1,4 +1,4 @@
-package com.udacity.project4.locationreminders.reminderslist
+package com.udacity.project4.locationreminders.locationreminders.reminderslist
 
 import android.content.Intent
 import android.os.Bundle

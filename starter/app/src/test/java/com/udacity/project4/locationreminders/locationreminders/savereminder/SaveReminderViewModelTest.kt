@@ -1,11 +1,11 @@
-package com.udacity.project4.locationreminders.savereminder
+package com.udacity.project4.locationreminders.locationreminders.savereminder
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.udacity.project4.locationreminders.MainCoroutineRule
-import com.udacity.project4.locationreminders.data.FakeDataSource
-import com.udacity.project4.locationreminders.data.dto.ReminderDTO
+import com.udacity.project4.locationreminders.locationreminders.MainCoroutineRule
+import com.udacity.project4.locationreminders.locationreminders.data.FakeDataSource
+import com.udacity.project4.locationreminders.locationreminders.data.dto.ReminderDTO
 import com.udacity.project4.locationreminders.getOrAwaitValue
 
 import kotlinx.coroutines.ExperimentalCoroutinesApi

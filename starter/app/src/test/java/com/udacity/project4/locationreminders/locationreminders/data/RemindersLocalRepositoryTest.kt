@@ -1,10 +1,9 @@
-package com.udacity.project4.locationreminders.data
+package com.udacity.project4.locationreminders.locationreminders.data
 
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.MediumTest
-import com.udacity.project4.locationreminders.MainCoroutineRule
-import com.udacity.project4.locationreminders.data.dto.ReminderDTO
-import com.udacity.project4.locationreminders.data.dto.Result
+import com.udacity.project4.locationreminders.locationreminders.MainCoroutineRule
+import com.udacity.project4.locationreminders.locationreminders.data.dto.ReminderDTO
+import com.udacity.project4.locationreminders.locationreminders.data.dto.Result
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.hamcrest.MatcherAssert.assertThat
@@ -12,7 +11,6 @@ import org.hamcrest.core.IsEqual
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
 
 @ExperimentalCoroutinesApi
 //Medium Test to test the repository

@@ -1,4 +1,4 @@
-package com.udacity.project4.locationreminders.savereminder
+package com.udacity.project4.locationreminders.locationreminders.savereminder
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
@@ -7,9 +7,9 @@ import com.google.android.gms.maps.model.PointOfInterest
 import com.udacity.project4.R
 import com.udacity.project4.base.BaseViewModel
 import com.udacity.project4.base.NavigationCommand
-import com.udacity.project4.locationreminders.data.ReminderDataSource
-import com.udacity.project4.locationreminders.data.dto.ReminderDTO
-import com.udacity.project4.locationreminders.reminderslist.ReminderDataItem
+import com.udacity.project4.locationreminders.locationreminders.data.ReminderDataSource
+import com.udacity.project4.locationreminders.locationreminders.data.dto.ReminderDTO
+import com.udacity.project4.locationreminders.locationreminders.reminderslist.ReminderDataItem
 import kotlinx.coroutines.launch
 
 class SaveReminderViewModel(val app: Application, val dataSource: ReminderDataSource) :
