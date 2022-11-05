@@ -1,7 +1,8 @@
-package com.udacity.project4.locationreminders.locationreminders.data
+package com.udacity.project4.locationreminders.data.local
 
 import androidx.test.filters.MediumTest
-import com.udacity.project4.locationreminders.locationreminders.MainCoroutineRule
+import com.udacity.project4.locationreminders.FakeDataSource
+import com.udacity.project4.locationreminders.MainCoroutineRule
 import com.udacity.project4.locationreminders.locationreminders.data.dto.ReminderDTO
 import com.udacity.project4.locationreminders.locationreminders.data.dto.Result
 import kotlinx.coroutines.ExperimentalCoroutinesApi
